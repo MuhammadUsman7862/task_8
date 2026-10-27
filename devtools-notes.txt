@@ -1,0 +1,16 @@
+DevTools Notes - Day 1
+
+1. body
+I inspected body and saw font-family Arial, font-size 16px, line-height 1.6, background-color #eef1f3 and color #333. The browser's default margin of 8px was crossed out because my margin: 0 replaced it.
+
+2. .site-header
+I inspected .site-header and saw min-height 40vh, padding 2rem 5vw, a linear-gradient background and a box-shadow. In the Computed tab, 40vh and 5vw were shown as pixel values for my window size.
+
+3. .profile-photo
+I inspected .profile-photo and saw width 200px, height 200px, a 4px white border, border-radius 50% and object-fit cover. The box-model diagram showed a 200 x 200 content area, so with the border the full box is 208 x 208px.
+
+4. .main-nav a
+I inspected a nav link and saw .main-nav a:link with color #fff applied, while a:link with color #0b5cab was crossed out. The nav rule wins because it is more specific.
+
+5. .intro
+I inspected the About paragraph and saw #about p with color #222 applied, while .intro with color #c0392b was crossed out. The ID selector is more specific than the class, so the text is dark grey even though .intro comes later in the file.
