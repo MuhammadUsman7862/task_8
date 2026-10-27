@@ -1,216 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Muhammad Usman</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bloomrix Summer Internship - Training Courses</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    <header class="site-header">
-      <h1>
-        Muhammad Usman
-      </h1>
-      <img class="profile-photo" src="profile-photo.jpg" alt="Profile photo of Muhammad Usman" width="200" height="200">
-      <nav class="main-nav">
-        <a href="#about">
-          About
-        </a>
-        <a href="#skills">
-          Skills
-        </a>
-        <a href="#education">
-          Education
-        </a>
-        <a href="#links">
-          Links
-        </a>
-        <a href="#contact">
-          Contact
-        </a>
-      </nav>
-    </header>
+  <header class="site-header">
+    <a class="logo" href="#top">Bloomrix Training</a>
+    <nav class="main-nav">
+      <a href="#courses">Courses</a>
+      <a href="#lesson">Lesson</a>
+      <a href="#plans">Plans</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <main>
-      <section id="about">
-        <h2>
-          About Me
-        </h2>
-        <p class="intro">
-          I hold a <strong>Bachelor of Science in Computer Science</strong>
-          from the University of Wah. I started my career as an
-          <em>AI/ML and IT Intern</em> at the Pakistan Meteorological
-          Department, and I recently started an internship at Bloomrix.
+  <main id="top">
+
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Summer Internship Training Program</h1>
+        <p>
+          Learn HTML, CSS, JavaScript, PHP, Laravel and System Design
+          through short lessons and weekly practical tasks.
         </p>
-      </section>
+        <a class="btn" href="#courses">Browse courses</a>
+        <a class="btn btn-light" href="#plans">View plans</a>
+      </div>
+      <img class="hero-img" src="profile-photo.jpg" alt="Muhammad Usman, intern at Bloomrix">
+    </section>
 
-      <section id="skills">
-        <h2>
-          Skills
-        </h2>
-        <ul class="skill-list">
-          <li class="skill-item">
-            HTML5
-          </li>
-          <li class="skill-item">
-            CSS3
-          </li>
-          <li class="skill-item">
-            JavaScript
-          </li>
-          <li class="skill-item">
-            Microsoft Office
-          </li>
-        </ul>
-      </section>
+    <section class="section" id="courses">
+      <h2>Our Courses</h2>
+      <div class="card-grid">
 
-      <section id="education">
-        <h2>
-          Education</h2>
+        <article class="card">
+          <h3>HTML5</h3>
+          <p>Page structure, text, links, images, lists and forms.</p>
+          <p class="meta">2 weeks | Beginner</p>
+          <a class="card-link" href="#lesson">Start lesson</a>
+        </article>
+
+        <article class="card">
+          <h3>CSS3</h3>
+          <p>Selectors, the box model, Flexbox, Grid and responsive design.</p>
+          <p class="meta">3 weeks | Beginner</p>
+          <a class="card-link" href="#lesson">Start lesson</a>
+        </article>
+
+        <article class="card">
+          <h3>JavaScript</h3>
+          <p>Variables, functions, the DOM and events.</p>
+          <p class="meta">3 weeks | Intermediate</p>
+          <a class="card-link" href="#lesson">Start lesson</a>
+        </article>
+
+        <article class="card">
+          <h3>PHP</h3>
+          <p>Server-side basics, forms handling and working with data.</p>
+          <p class="meta">3 weeks | Intermediate</p>
+          <a class="card-link" href="#lesson">Start lesson</a>
+        </article>
+
+        <article class="card">
+          <h3>Laravel</h3>
+          <p>Routing, controllers, views and building a small web app.</p>
+          <p class="meta">4 weeks | Intermediate</p>
+          <a class="card-link" href="#lesson">Start lesson</a>
+        </article>
+
+        <article class="card">
+          <h3>System Design</h3>
+          <p>Planning how the parts of a larger application fit together.</p>
+          <p class="meta">2 weeks | Advanced</p>
+          <a class="card-link" href="#lesson">Start lesson</a>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="section lesson" id="lesson">
+      <article class="lesson-main">
+        <h2>Lesson 1: Your First Web Page</h2>
+        <p class="byline">
+          <img class="avatar" src="profile-photo.jpg" alt="Muhammad Usman">
+          <span>By Muhammad Usman | 15 min read</span>
+        </p>
+        <p>
+          Every web page starts with HTML. It describes what is on the page,
+          and CSS describes how it looks. In this lesson you build a simple
+          profile page and style it.
+        </p>
+        <h3>What you will do</h3>
         <ol>
-          <li>
-            BS Computer Science, University of Wah (2023)
-          </li>
-          <li>
-            Self-study: Full-Stack Software Engineer roadmap (in progress)
-          </li>
+          <li>Create an index.html file with a header, main and footer.</li>
+          <li>Add headings, paragraphs and a list of your skills.</li>
+          <li>Link a style.css file and change the colours and fonts.</li>
+          <li>Open the page in the browser and inspect it with DevTools.</li>
         </ol>
-      </section>
+        <h3>Tip</h3>
+        <p>Save often and refresh the browser after every small change.</p>
+      </article>
 
-      <section id="links">
-        <h2>
-          Useful Links</h2>
+      <aside class="lesson-sidebar">
+        <h3>Milestones</h3>
         <ul>
-          <li>
-            <a href="https://github.com/">
-              GitHub
-            </a> 
-            - my projects
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/">
-              LinkedIn
-            </a> 
-            - my profile
-          </li>
-          <li>
-            <a href="https://www.uow.edu.pk/">
-              University of Wah
-            </a> 
-            - where I studied
-          </li>
+          <li>Orientation Complete</li>
+          <li>Onboarding</li>
+          <li>First Project Review</li>
+          <li>Midpoint Check-in</li>
+          <li>Final Review</li>
+          <li>Certification</li>
         </ul>
-      </section>
+      </aside>
+    </section>
 
-      <section id="contact">
-        <h2>
-          Contact Me
-        </h2>
-        <p class="note">
-          Fields marked with * are required.
-        </p>
+    <section class="section" id="plans">
+      <h2>Program Summary</h2>
+      <div class="plan-grid">
 
-        <form class="contact-form" action="https://httpbin.org/post" method="post">
+        <article class="plan">
+          <h3>Starter</h3>
+          <p class="plan-length">4 weeks</p>
+          <ul>
+            <li>HTML5 and CSS3</li>
+            <li>1 practice project</li>
+            <li>Mentor feedback</li>
+          </ul>
+          <a class="btn" href="#contact">Choose Starter</a>
+        </article>
 
-          <h3>
-            Your Details
-          </h3>
+        <article class="plan plan-featured">
+          <h3>Standard</h3>
+          <p class="plan-length">8 weeks</p>
+          <ul>
+            <li>Everything in Starter</li>
+            <li>JavaScript and PHP</li>
+            <li>2 practice projects</li>
+          </ul>
+          <a class="btn" href="#contact">Choose Standard</a>
+        </article>
 
-          <p>
-            <label for="fullname">
-              Full name *
-            </label>
-            <input type="text" id="fullname" name="fullname" placeholder="Your full name" required>
-          </p>
+        <article class="plan">
+          <h3>Full Track</h3>
+          <p class="plan-length">12 weeks</p>
+          <ul>
+            <li>Everything in Standard</li>
+            <li>Laravel and System Design</li>
+            <li>Final project and certificate</li>
+          </ul>
+          <a class="btn" href="#contact">Choose Full Track</a>
+        </article>
 
-          <p>
-            <label for="email">
-              Email *
-            </label>
-            <input type="email" id="email" name="email" placeholder="you@gmail.com" required>
-          </p>
+      </div>
+    </section>
 
-          <p>
-            <label for="password">
-              Password *
-            </label>
-            <input type="password" id="password" name="password" minlength="3" required>
-          </p>
+  </main>
 
-          <p>
-            <label for="birthdate">
-              Date of birth *
-            </label>
-            <input type="date" id="birthdate" name="birthdate" required>
-          </p>
+  <footer class="site-footer" id="contact">
+    <div class="footer-grid">
+      <div>
+        <h3>Bloomrix Training</h3>
+        <p>Summer internship program for new web developers.</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#lesson">Lesson</a></li>
+          <li><a href="#plans">Plans</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li>Wah Cantt, Pakistan</li>
+          <li><a href="https://github.com/MuhammadUsman7862">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copyright">&copy; 2026 Bloomrix Training. All rights reserved.</p>
+  </footer>
 
-          <p>
-            <label for="experience">
-              Years of experience *
-            </label>
-            <input type="number" id="experience" name="experience" min="0" max="50" value="0" required>
-          </p>
-
-          <fieldset>
-            <legend>
-              Gender *
-            </legend>
-            <input type="radio" id="gender-male" name="gender" value="male" required>
-            <label for="gender-male">
-              Male
-            </label>
-
-            <input type="radio" id="gender-female" name="gender" value="female">
-            <label for="gender-female">
-              Female
-            </label>
-
-            <input type="radio" id="gender-other" name="gender" value="other">
-            <label for="gender-other">
-              Other
-            </label>
-          </fieldset>
-
-          <fieldset>
-            <legend>
-              Interests
-            </legend>
-            <input type="checkbox" id="interest-ai" name="interests" value="ai">
-            <label for="interest-ai">
-              Artificial Intelligence
-            </label>
-
-            <input type="checkbox" id="interest-web" name="interests" value="web">
-            <label for="interest-web">
-              Web Development
-            </label>
-
-            <input type="checkbox" id="interest-business" name="interests" value="business">
-            <label for="interest-business">
-              Entrepreneurship
-            </label>
-          </fieldset>
-
-          <p>
-            <label for="message">
-              Message *
-            </label>
-            <textarea id="message" name="message" rows="5" cols="40" placeholder="Write your message here" required></textarea>
-          </p>
-
-          <p>
-            <button type="submit">
-              Submit
-            </button>
-            <button type="reset">
-              Reset
-            </button>
-          </p>
-
-        </form>
-      </section>
-    </main>
-
-  </body>
+</body>
 </html>
