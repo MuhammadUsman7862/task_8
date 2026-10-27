@@ -200,7 +200,6 @@ legend {
   padding: 0 0.5rem;
 }
 
-/* radio and checkbox labels sit next to the input, not on a new line */
 .contact-form input[type="radio"] + label,
 .contact-form input[type="checkbox"] + label {
   display: inline;
